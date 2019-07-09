@@ -5,4 +5,4 @@ function mouse(name){
 cat.prototype.die = () =>{
 this.die = true;
 }
-module.export = mouse
+module.exports = mouse

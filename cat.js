@@ -4,4 +4,4 @@ function cat(name){
 cat.prototype.eat = (mouse) =>{
 this.stomach.push(mouse)
 }
-module.export = cat
+module.exports = cat
