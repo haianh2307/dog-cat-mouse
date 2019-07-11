@@ -1,8 +1,8 @@
-function mouse(name){
+function Mouse(name){
     this.name = name;
     this.die = false
 }
-cat.prototype.die = () =>{
+Mouse.prototype.die = () =>{
 this.die = true;
 }
-module.exports = mouse
+module.exports = Mouse
